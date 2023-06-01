@@ -4,4 +4,4 @@ pydantic[email]
 pydantic
 python-multipart
 sqlalchemy
-pyscopg2
+psycopg2
