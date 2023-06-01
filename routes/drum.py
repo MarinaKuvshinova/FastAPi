@@ -17,10 +17,10 @@ def addDrum(drum: Drum, db: Session = Depends(get_db)):
     # return {"data": drumDataBase}
     return {"data": drumData}
 
-@router.get("/", response_model=list[DrumResponseModel])
-def getDrums(db: Session = Depends(get_db)):
-    drums = db.query(DrumTableModel).all()
-    return drums
+# @router.get("/", response_model=list[DrumResponseModel])
+# def getDrums(db: Session = Depends(get_db)):
+#     drums = db.query(DrumTableModel).all()
+#     return drums
 
 
     # return {"data": drumDataBase}
